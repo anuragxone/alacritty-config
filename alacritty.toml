@@ -1,0 +1,23 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/monokai_pro.toml"
+]
+
+[window]
+blur = true
+opacity = 0.9
+
+[font]
+normal = { family = "SF Mono", style = "Regular" }
+size = 11
+
+[keyboard]
+bindings = [
+{ key = "T", mods = "Super", mode = "~Vi", action = "CreateNewWindow" },
+]
+
+[mouse]
+bindings = [
+{ mouse = "Right", action = "Copy" },
+{ mouse = "Middle", action = "Paste" }
+]
