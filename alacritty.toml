@@ -5,10 +5,10 @@ import = [
 
 [window]
 blur = true
-opacity = 0.9
+opacity = 1
 
 [font]
-normal = { family = "SF Mono", style = "Regular" }
+normal = { family = "IosevkaTerm Nerd Font", style = "Regular" }
 size = 11
 
 [keyboard]
