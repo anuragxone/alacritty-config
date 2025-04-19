@@ -1,11 +1,12 @@
 [general]
-import = [
-    "~/.config/alacritty/themes/themes/monokai_pro.toml"
-]
+import = ["~/.config/alacritty/themes/themes/monokai_pro.toml"]
+
+[terminal]
+shell = { program = "/bin/zsh", args = ["-l"] }
 
 [window]
 blur = true
-opacity = 1
+opacity = 0.8
 
 [font]
 normal = { family = "IosevkaTerm Nerd Font", style = "Regular" }
@@ -13,11 +14,11 @@ size = 11
 
 [keyboard]
 bindings = [
-{ key = "T", mods = "Super", mode = "~Vi", action = "CreateNewWindow" },
+    { key = "T", mods = "Super", mode = "~Vi", action = "CreateNewWindow" },
 ]
 
 [mouse]
 bindings = [
-{ mouse = "Right", action = "Copy" },
-{ mouse = "Middle", action = "Paste" }
+    { mouse = "Right", action = "Copy" },
+    { mouse = "Middle", action = "Paste" },
 ]
