@@ -1,23 +1,25 @@
 [general]
-import = [
-    "~/.config/alacritty/themes/themes/monokai_pro.toml"
-]
+import = ["~/.config/alacritty/themes/themes/rose_pine_dawn.toml"]
 
 [window]
-blur = true
+# blur = true
 opacity = 1
 
 [font]
-normal = { family = "IosevkaTerm Nerd Font", style = "Regular" }
-size = 11
+normal = { family = "CaskaydiaMono NFM", style = "Regular" }
+bold = { family = "CaskaydiaMono NFM", style = "Bold" }
+italic = { family = "CaskaydiaMono NFM", style = "Regular Italic" }
+bold_italic = { family = "CaskaydiaMono NFM", style = "Bold Italic" }
+# size = 12
+
 
 [keyboard]
 bindings = [
-{ key = "T", mods = "Super", mode = "~Vi", action = "CreateNewWindow" },
+    { key = "T", mods = "Super", mode = "~Vi", action = "CreateNewWindow" },
 ]
 
 [mouse]
 bindings = [
-{ mouse = "Right", action = "Copy" },
-{ mouse = "Middle", action = "Paste" }
+    { mouse = "Right", action = "Copy" },
+    { mouse = "Middle", action = "Paste" },
 ]
