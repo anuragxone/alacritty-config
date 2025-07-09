@@ -1,16 +1,16 @@
-[general]
-import = ["~/.config/alacritty/themes/themes/rose_pine_dawn.toml"]
+# [general]
+import = ["~/.config/alacritty/themes/themes/everforest_light.toml"]
 
 [window]
 # blur = true
 opacity = 1
 
 [font]
-normal = { family = "CaskaydiaMono NFM", style = "Regular" }
-bold = { family = "CaskaydiaMono NFM", style = "Bold" }
-italic = { family = "CaskaydiaMono NFM", style = "Regular Italic" }
-bold_italic = { family = "CaskaydiaMono NFM", style = "Bold Italic" }
-# size = 12
+normal = { family = "Monaspace Neon", style = "Regular" }
+bold = { family = "Monaspace Neon", style = "Bold" }
+italic = { family = "Monaspace Neon", style = "Regular Italic" }
+bold_italic = { family = "Monaspace Neon", style = "Bold Italic" }
+size = 12
 
 
 [keyboard]
